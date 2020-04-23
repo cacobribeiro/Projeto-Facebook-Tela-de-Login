@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+body {
+  background: white;
+  color: #1c1e21;
+  line-height: 1.34;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #385898;
+  cursor: pointer;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 13px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-bar {
+  background-color: #3b5998;
+  height: 82px; 
+  width: 100%;
+}
+.facebook-logo {
+  background-image: url(sprite.png);
+  background-position: 0 -245px;
+  display: inline-block;
+  height: 34px;
+  margin-top: 17px;
+  width: 170px;
+}
+
+.hero{
+  background: transparent;  
+}
+
+.form-top{
+  height: 65px;
+  width: 363px;
+}
+
+.col-form {
+  height: 65px;
+}
+
+.form-top form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.input-form-top{
+  width: 142px;
+  font-size: 12px;
+  border-radius: 0;
+  border: 1px solid #1d2a5b;
+  background-color: #fff;
+  color: #1c1e21;
+  padding: 3px 3px 4px 3px;
+  max-height: 23px;  
+}
+
+.btn-form-top {
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+  color: white;
+  width: 49px;
+  height: 24px;
+  margin-top: 21px;
+  margin-left: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 18px;  
+  padding: 2px 6px;
+}
+.btn-form-top:hover{
+  background-color: #3b5998;
+}
+
+.label-top {
+  color: white;
+  font-weight: normal;
+  padding-left: 1px;
+  margin-bottom: 2px;
+  font-size: 12px;
+  max-width: 145px;
+}
+.forgot-pass {
+  color: #9cb4d8;
+  margin-top: 3px;
+  font-size: 12px;
+}
+
+.forgot-pass a{
+  color: #9cb4d8;
+
+}
