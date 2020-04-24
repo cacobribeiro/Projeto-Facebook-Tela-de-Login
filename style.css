@@ -291,9 +291,9 @@ a {
 }
 
 .btn-language-box {
-  border: 1px solid #ccd0d5;
-  border-radius: 2px;
   background-color: #f5f6f7;
+  border-radius: 2px;
+  border: 1px solid #ccd0d5;
   color: #4b4f56;
   height: 18px;
   padding: 2px 8px 0;
@@ -303,22 +303,21 @@ a {
 
 .btn-language {
   background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yJ/r/DmtZWLqoTvz.png');
+  background-position: -39px -279px;
   background-repeat: no-repeat;
   background-size: auto;
   display: inline-block;
   height: 12px;
   width: 12px;
-  background-position: -39px -279px;
 }
 
 .btn-info {
+  background-color: transparent;
   background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/KuTmU9Y4htf.png');
+  background-position: -136px -280px;
   background-repeat: no-repeat;
   background-size: auto;
-  background-color: transparent;
-  background-position: -136px -280px;
   display: inline-block;
   height: 16px;
   width: 16px;
-  margin: 0px;
 }
